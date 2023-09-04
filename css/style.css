@@ -12,7 +12,7 @@ main {
     position: relative;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
-    height: 200px;
+    height: 175px;
 }
 
 header img {
@@ -27,7 +27,8 @@ header img {
 }
 
 .title-article h1 {
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .title-article h2 {
@@ -46,15 +47,20 @@ header img {
     color: #6ec6ee;
 }
 
-.photo-article {
-    margin: 20px 0 20px 0;
+.photo-article, .text-section, .table-article {
+    margin: 40px 0 40px 0;
 }
+
 .photo {
-    width: 49%;
+    width: 48%;
+}
+
+figcaption {
+    font-size: 20px;
 }
 
 .text-article {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .highlited-text {
@@ -62,7 +68,7 @@ header img {
 }
 
 .text-list {
-    margin: 20px;
+    margin: 25px;
 }
 
 .table-article {
