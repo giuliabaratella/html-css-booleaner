@@ -50,7 +50,7 @@ header img {
     margin: 20px 0 20px 0;
 }
 .photo {
-    width:48%
+    width: 49%;
 }
 
 .text-article {
@@ -67,4 +67,19 @@ header img {
 
 .table-article {
     width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row-1,.table-row-2 {
+    width: 25%;
+}
+
+.head-table {
+    background-color: #20a9e5;
+    color: white;
+    font-weight: bold;
+}
+
+.blue-row {
+    background-color: #b1e5f2;
 }
