@@ -62,8 +62,12 @@ header img {
     margin: 40px 0 40px 0;
 }
 
-.photo-article img {
-    width: 48%;
+.photo-1 {
+    width: 53%;
+}
+
+.photo-2 {
+    width: 45%;
 }
 
 figcaption {
