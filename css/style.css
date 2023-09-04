@@ -16,7 +16,7 @@ main, footer {
 }
 
 header img {
-    width: 20%;
+    width: 350px;
     position: absolute;
     bottom: 10%;
     margin-left: 1%;
@@ -27,7 +27,7 @@ header img {
 }
 
 .title-article h1 {
-    font-size: 60px;
+    font-size: 65px;
     font-weight: bold;
 }
 
@@ -47,12 +47,16 @@ header img {
     color: #6ec6ee;
 }
 
+.author:hover {
+    color: #20a9e5;
+}
+
 .photo-article, .text-section, .table-article {
     margin: 40px 0 40px 0;
 }
 
 .photo {
-    width: 48%;
+width: 48%;
 }
 
 figcaption {
@@ -115,4 +119,8 @@ figcaption {
     top: 5%;
     left: 5%;
     color: #fdfbfd;
+}
+
+.rel-art-img h3:hover {
+    color: #4ea0ff;
 }
