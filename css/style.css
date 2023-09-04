@@ -4,9 +4,13 @@
     padding: 0;
 }
 
+/* margini pagina */
+
 main, footer {
     margin: 0 1% 0 1%;
 }
+
+/* header sito */
 
 .header-background {
     position: relative;
@@ -22,6 +26,7 @@ header img {
     margin-left: 1%;
 }
 
+/* titolo articolo */
 .title-article {
     margin: 2% 0 2% 0;
 }
@@ -51,6 +56,8 @@ header img {
     color: #20a9e5;
 }
 
+/* foto articolo */
+
 .photo-article, .text-section, .table-article {
     margin: 40px 0 40px 0;
 }
@@ -62,6 +69,8 @@ header img {
 figcaption {
     font-size: 20px;
 }
+
+/* testo articolo */
 
 .text-article, footer {
     font-size: 26px;
@@ -93,6 +102,8 @@ figcaption {
 .blue-row {
     background-color: #b1e5f2;
 }
+
+/* footer */
 
 #footer-title {
     color: #838383;
